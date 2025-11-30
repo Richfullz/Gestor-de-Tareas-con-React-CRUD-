@@ -86,7 +86,6 @@ Este proyecto fue creado como parte de mi portafolio personal para **demostrar m
 
 ## 🧪 Cómo ejecutar el proyecto
 
-## Bash
 # Clonar el repositorio
 git clone https://github.com/richfullzz/gestor-tareas-react.git
 
@@ -118,6 +117,51 @@ Estado centralizado en App.js
 Validaciones con SweetAlert2 para mejor UX
 IDs únicos con uuid
 Sin dependencias pesadas: solo lo necesario
+
+---
+## 🧪 Cómo lo fui creando paso a paso
+
+### 1. Planificación y estructura
+- Dibujé un **wireframe de bolsillo** (papel y boli) con:
+- Header con botón “Agregar”
+- Formulario colapsable
+- Lista de tareas con iconos de editar/eliminar
+- Decidí **no usar librerías de UI** para mostrar CSS puro.
+
+### 2. Creación del proyecto
+- npx create-react-app task-manager-app
+- cd task-manager-app
+- npm install uuid sweetalert2 react-icons
+
+### 3. Componentes 
+- Button.js → botón reutilizable con color y texto por props.
+- Header.js → título + botón que alterna formulario.
+- AddTask.js → formulario con dos inputs y validación básica.
+- Task.js → muestra texto, fecha y acciones (editar/eliminar).
+- Tasks.js → map de tareas.
+
+### 4. Estado central en App.js
+- tasks → array de objetos { id, text, day }
+- showAddTask → boolean para mostrar/ocultar formulario
+- useEffect → carga y guarda en localStorage automáticamente.
+
+### 5. CRUD completo
+- Create → addTask() con uuid y SweetAlert de éxito.
+- Read → lista dinámica con map.
+- Update → doble click o icono lápiz; edición in-line.
+- Delete → confirmación SweetAlert + filtrado por id.
+
+### 6. UX detalles
+- Placeholder con ejemplo de fecha legible (30 nov 2025 10:00 AM).
+- Botón “Agregar” cambia a “Cerrar” y color verde → rojo.
+- Mensajes de éxito/error sin alert() nativo.
+
+### 7. Limpieza y refactor
+- Eliminé comentarios y console.log.
+- Props desestructuradas: { text, day } en vez de props.text.
+- Nombres de componentes en PascalCase y archivos igual.
+
+---
 
 ## 🧑‍💻 Autor
 Richfullzz – Frontend Developer Jr.
