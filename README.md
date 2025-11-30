@@ -179,7 +179,7 @@ Esta app está desplegada gratuitamente con GitHub Pages.
 ### 2. Añade la URL exacta de tu repo en package.json
 - JSON
 -  Copy
-- "homepage": "https://richfullzz.github.io/Gestor-de-Tareas-con-React-CRUD-](https://richfullz.github.io/Gestor-de-Tareas-con-React-CRUD-/"
+- "homepage": "https://richfullz.github.io/Gestor-de-Tareas-con-React-CRUD-"
 - ⚠️ Usa tu usuario y el nombre exacto del repo.
 ### 3. Añade los scripts de despliegue
 - JSON
@@ -194,7 +194,7 @@ Esta app está desplegada gratuitamente con GitHub Pages.
 - Copy
 - npm run deploy
 - Tras 30-60 s verás:
-- Published on https://richfullzz.github.io/Gestor-de-Tareas-con-React-CRUD-](https://richfullz.github.io/Gestor-de-Tareas-con-React-CRUD-/
+- Published on [https://richfullzz.github.io/Gestor-de-Tareas-con-React-CRUD-](https://richfullz.github.io/Gestor-de-Tareas-con-React-CRUD-/](https://richfullz.github.io/Gestor-de-Tareas-con-React-CRUD-/)
 ### 5. Activa GitHub Pages (solo la 1ª vez)
 - Repo → Settings → Pages → Source → rama gh-pages → Save.
 - Listo, tu React-app estará en producción y gratuitamente alojada en GitHub.
