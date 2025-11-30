@@ -55,7 +55,7 @@ Este proyecto fue creado como parte de mi portafolio personal para **demostrar m
 
   <img width="700" alt="Captura 9" src="https://github.com/user-attachments/assets/6d9f7b81-37cf-43bd-9bf7-beb9478f3849" />
   <br>
-  <em>Cierro el formulario y se ve el listado final.</em>
+  <em>Cierro el formulario y se ve el listado final con el boton de cerrar.</em>
 </p>
 
 ---
