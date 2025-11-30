@@ -14,14 +14,23 @@ Este proyecto fue creado como parte de mi portafolio personal para **demostrar m
 
 <p align="center">
   <img width="700" alt="Captura 1" src="https://github.com/user-attachments/assets/834cc4d6-6687-48e6-a714-c464ddf2062c" />
+  - En esta captura muestro una tarea ya creada, ahora lo que voy hacer es eliminarla.
   <img width="700" alt="Captura 2" src="https://github.com/user-attachments/assets/74fae952-7437-412f-8497-4e695af127da" />
+  - Si le damos al lapicero podemos editar la tarea como deseemos.
   <img width="700" alt="Captura 3" src="https://github.com/user-attachments/assets/ecf390d5-6bb8-4601-8dd7-c1ca68775a2f" />
+  - En esta otra captura muestro cuando pulso a la x de eliminar, nos salta una alerta creada por sweetalert que he creado el npm install-
   <img width="700" alt="Captura 4" src="https://github.com/user-attachments/assets/38cb4e94-3739-44b9-86d3-f2219a7553df" />
+  - Si le damos a aceptar nos sale este otro mensaje, avisandonos de que se eliminó la tarea.
   <img width="700" alt="Captura 5" src="https://github.com/user-attachments/assets/612a0836-f0e9-4403-838b-1a5acddd5aa8" />
+  - Aquí muestro como se eliminó la tarea, ahora voy a crear una nueva y editarla.
   <img width="700" alt="Captura 6" src="https://github.com/user-attachments/assets/964e888b-9840-4f01-a699-6c7a89cc14dc" />
+  - Agregamos nuestra nueva tarea.
   <img width="700" alt="Captura 7" src="https://github.com/user-attachments/assets/d51d96e7-cffa-4a52-af05-66e2315965f7" />
+  - Aquí hice un pequeño ejemplo de editarla y pulso el botón de guardar.
   <img width="700" alt="Captura 8" src="https://github.com/user-attachments/assets/d5fc8793-969e-46b5-91f7-0ac8a8005816" />
+  - Este mensaje nos avisa de la modificación de la tarea realizada correctamente.
   <img width="700" alt="Captura 9" src="https://github.com/user-attachments/assets/6d9f7b81-37cf-43bd-9bf7-beb9478f3849" />
+  - Ahora vemos como se modificó, le di al botón de cerrar para que se vea de esta otra forma la ventana de administrador de tareas.
 </p>
 
 ---
