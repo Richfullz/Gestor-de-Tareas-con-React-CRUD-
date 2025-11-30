@@ -159,27 +159,35 @@ Sin dependencias pesadas: solo lo necesario
 ### 7. Limpieza y refactor
 - Eliminé comentarios y console.log.
 - Props desestructuradas: { text, day } en vez de props.text.
+- Nombres de componentes en PascalCase y archivos igual.
 
+### 8. Despliegue
+- Copy
+- npm install gh-pages --save-dev
+# añadí "homepage" y scripts "predeploy" / "deploy"
+- npm run deploy
+→ Demo en https://richfullzz.github.io/Gestor-de-Tareas-con-React-CRUD-
 ---
 
 ## 🚀 Cómo desplegar en GitHub Pages (paso a paso)
-
-> Esta app está **desplegada gratuitamente** con GitHub Pages.  
-> 👉 [https://richfullz.github.io/Gestor-de-Tareas-con-React-CRUD-](https://richfullz.github.io/Gestor-de-Tareas-con-React-CRUD-/)
+Esta app está desplegada gratuitamente con GitHub Pages.
+👉 Demo en vivo: https://richfullzz.github.io/Gestor-de-Tareas-con-React-CRUD-
 ### 1. Instala el helper de GitHub
+- bash
+-  Copy
 - npm install gh-pages --save-dev
 ### 2. Añade la URL exacta de tu repo en package.json
 - JSON
-- Copy
+-  Copy
 - "homepage": "https://richfullzz.github.io/Gestor-de-Tareas-con-React-CRUD-"
-### ⚠️ Usa tu usuario y el nombre exacto del repo.
+- ⚠️ Usa tu usuario y el nombre exacto del repo.
 ### 3. Añade los scripts de despliegue
 - JSON
 - Copy
 - "scripts": {
-- ...
--  "predeploy": "npm run build",
--  "deploy": "gh-pages -d build"
+ -  ...
+  - "predeploy": "npm run build",
+  - "deploy": "gh-pages -d build"
 - }
 ### 4. Compila y súbelo
 - bash
@@ -190,12 +198,6 @@ Sin dependencias pesadas: solo lo necesario
 ### 5. Activa GitHub Pages (solo la 1ª vez)
 - Repo → Settings → Pages → Source → rama gh-pages → Save.
 - Listo, tu React-app estará en producción y gratuitamente alojada en GitHub.
-- Copy
----
-### ✅ Commit final
-- git add README.md
-- git commit -m "docs: añadida guía de despliegue en GitHub Pages"
-- git push origin main
 ---
 
 ## 🧑‍💻 Autor
