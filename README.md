@@ -159,7 +159,6 @@ Sin dependencias pesadas: solo lo necesario
 ### 7. Limpieza y refactor
 - Eliminé comentarios y console.log.
 - Props desestructuradas: { text, day } en vez de props.text.
-- Nombres de componentes en PascalCase y archivos igual.
 
 ---
 
