@@ -23,7 +23,7 @@ Este proyecto fue creado como parte de mi portafolio personal para **demostrar m
   <em>Si le damos al lapicero podemos editar la tarea como deseemos.</em>
   <br><br>
 
-  <img width="700" alt="Captura 3" src="https://github.com/user-attachments/assets/ecf390d5-6bb8-4601-8dd7-c1ca68775a2f" />
+  <img width="692" height="456" alt="Captura de pantalla 2025-11-30 133259" src="https://github.com/user-attachments/assets/06978285-f0b1-479d-a46b-0009956c9035" />
   <br>
   <em>Al pulsar la “x” nos salta una alerta creada con SweetAlert2.</em>
   <br><br>
