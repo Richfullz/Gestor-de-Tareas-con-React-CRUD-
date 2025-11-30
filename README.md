@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# 📋 Gestor de Tareas con React (CRUD)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Una aplicación web minimalista y funcional para gestionar tareas diarias. Desarrollada con **React**, **localStorage** y **Clean Code**, esta app permite **crear, editar, eliminar y persistir tareas** en el navegador.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Objetivo del Proyecto
 
-### `npm start`
+Este proyecto fue creado como parte de mi portafolio personal para **demostrar mis habilidades en React**, manejo de estado, componentes reutilizables y buenas prácticas de desarrollo frontend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Capturas de pantalla
 
-### `npm test`
+<p align="center">
+  <img width="700" alt="Captura 1" src="https://github.com/user-attachments/assets/834cc4d6-6687-48e6-a714-c464ddf2062c" />
+  <img width="700" alt="Captura 2" src="https://github.com/user-attachments/assets/74fae952-7437-412f-8497-4e695af127da" />
+  <img width="700" alt="Captura 3" src="https://github.com/user-attachments/assets/ecf390d5-6bb8-4601-8dd7-c1ca68775a2f" />
+  <img width="700" alt="Captura 4" src="https://github.com/user-attachments/assets/38cb4e94-3739-44b9-86d3-f2219a7553df" />
+  <img width="700" alt="Captura 5" src="https://github.com/user-attachments/assets/612a0836-f0e9-4403-838b-1a5acddd5aa8" />
+  <img width="700" alt="Captura 6" src="https://github.com/user-attachments/assets/964e888b-9840-4f01-a699-6c7a89cc14dc" />
+  <img width="700" alt="Captura 7" src="https://github.com/user-attachments/assets/d51d96e7-cffa-4a52-af05-66e2315965f7" />
+  <img width="700" alt="Captura 8" src="https://github.com/user-attachments/assets/d5fc8793-969e-46b5-91f7-0ac8a8005816" />
+  <img width="700" alt="Captura 9" src="https://github.com/user-attachments/assets/6d9f7b81-37cf-43bd-9bf7-beb9478f3849" />
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Función                        | Estado |
+|-------------------------------|--------|
+| ✅ Agregar tarea               | ✔️     |
+| ✏️ Editar tarea                | ✔️     |
+| 🗑️ Eliminar tarea              | ✔️     |
+| 💾 Persistencia en localStorage | ✔️     |
+| 🔔 Notificaciones con SweetAlert2 | ✔️  |
+| 📱 Diseño responsive básico    | ✔️     |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧱 Tecnologías usadas
 
-### `npm run eject`
+- **React** (Hooks: useState, useEffect)
+- **JavaScript ES6+**
+- **localStorage** (persistencia de datos)
+- **SweetAlert2** (UX mejorada)
+- **React Icons** (iconografía)
+- **CSS puro** (sin frameworks)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧪 Cómo ejecutar el proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+# Clonar el repositorio
+git clone https://github.com/richfullzz/gestor-tareas-react.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Entrar al directorio
+cd gestor-tareas-react
 
-## Learn More
+# Instalar dependencias
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Ejecutar en modo desarrollo
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Estructura del proyecto
+Copy
+src/
+├── components/
+│   ├── AddTask.js
+│   ├── Button.js
+│   ├── Header.js
+│   ├── Task.js
+│   └── Tasks.js
+├── App.js
+├── App.css
+└── index.js
 
-### Code Splitting
+## 💡 Decisiones de desarrollo
+Componentes reutilizables: Button, Task, etc.
+Estado centralizado en App.js
+Validaciones con SweetAlert2 para mejor UX
+IDs únicos con uuid
+Sin dependencias pesadas: solo lo necesario
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧑‍💻 Autor
+Richfullzz – Frontend Developer Jr.
+📬 Contacto: alejandropascualsanchez@gmail.com
+🌐 LinkedIn: linkedin.com/in/alejandrop-38a413368
