@@ -200,6 +200,11 @@ Esta app está desplegada gratuitamente con GitHub Pages.
 - Listo, tu React-app estará en producción y gratuitamente alojada en GitHub.
 ---
 
+## 🚀 ¡Ya está online!
+
+🔗 **[Gestor de Tareas con React (CRUD)]([https://no-tes-cra-f-ters.vercel.app/](https://gestor-de-tareas-con-react-crud.vercel.app/))**  
+[![Vercel](https://img.shields.io/badge/Desplegado%20en-Vercel-black?style=flat-square&logo=vercel)](https://gestor-de-tareas-con-react-crud.vercel.app/)
+
 ## 🧑‍💻 Autor
 Richfullzz – Frontend Developer Jr.
 📬 Contacto: alejandropascualsanchez@gmail.com
